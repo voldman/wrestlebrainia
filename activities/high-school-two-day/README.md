@@ -1,0 +1,1 @@
+This is a two-day activity (~4 hrs) for rising high-school seniors who have some basic programming experience and some basic electronics experience.  Developed at MIT for the Women's Technology Program by Joel Voldman and the NSF Engineering Research Center on Sensorimotor Neural Engineering (CSNE).

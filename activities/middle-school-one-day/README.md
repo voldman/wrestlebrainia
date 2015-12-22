@@ -1,0 +1,1 @@
+This is a one-day (~2 hr) activity where middle-school students build an EMG-controlled wrestling machine, wrestlebrainia.  Developed at MIT, inspired by the original Wrestlebrainia developed at University of Washington.  This work is supported by the NSF Engineering Research Center on Sensorimotor Neural Engineering (CSNE).

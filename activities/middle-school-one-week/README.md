@@ -1,0 +1,1 @@
+Make a EMG-controlled Lego Mindstorms robotic car.  The code here makes the connection between the EMG board, Arduino, and LEGO EV3 bricks.
