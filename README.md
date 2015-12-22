@@ -1,0 +1,1 @@
+Repository of middle-school and high-school activities using muscle-controlled motors using an EMG sensor and Arduino system.
