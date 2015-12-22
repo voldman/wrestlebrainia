@@ -3,7 +3,7 @@ Getting Started
 
 You will need the following parts, which should be located in your bin or at the table. The bin will contain additional parts that you will use on Friday.
 
-| ![](./media/image1.jpeg)                                 | ![](./media/image2.jpeg)                                                   | ![](./media/image3.jpeg)                    | ![](./media/image4.jpeg)                            |
+| ![](./media/image1.jpeg?raw=true)                                 | ![](./media/image2.jpeg)                                                   | ![](./media/image3.jpeg)                    | ![](./media/image4.jpeg)                            |
 |----------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
 | Arduino microcontroller board (our miniature computer)   | EMG muscle sensor (measures the tiny electrical signals from your muscles) | EMG muscle sensor button wires w/ mini-plug | Motor driver board (electronics to drive the motor) |
 |                                                          |                                                                            |                                             |                                                     |
