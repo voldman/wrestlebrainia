@@ -1,25 +1,27 @@
+**NOTE: This uses the old EMG sensor board (Muscle Sensor v3, and needs to be updated to reflect that we now use the new Olimex EKG-EMG board**
+
 Getting Started
 ===============
 
 You will need the following parts, which should be located in your bin.
 
-| ![](./media/image1.jpeg)                                 | ![](./media/image2.jpeg)                                                   | ![](./media/image3.jpeg)                    | ![](./media/image4.jpeg)                            |
-|----------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
-| Arduino microcontroller board (our miniature computer)   | EMG muscle sensor (measures the tiny electrical signals from your muscles) | EMG muscle sensor button wires w/ mini-plug | Motor driver board (electronics to drive the motor) |
-|                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image5.jpeg)                                 | ![](./media/image6.jpeg)                                                   | ![](./media/image7.jpeg)                    | ![](./media/image8.jpeg)                            |
-| Sensor pads (connect the EMG muscle sensor to your skin) | Timer                                                                      | Motor                                       | 12V battery for motor                               |
-|                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image9.jpeg)                                 | ![](./media/image10.jpeg)                                                  | ![](./media/image11.jpeg)                   | ![](./media/image12.jpeg)                           |
-| LED                                                      | Potentiometer                                                              | LCD display                                 | USB cable                                           |
-| ![](./media/image13.jpeg)                                | ![](./media/image14.jpeg)                                                  | ![](./media/image15.jpeg)                   | ![](./media/image16.jpeg)                           |
-| Aluminum beams                                           | Screws and nuts                                                            | Motor hub                                   | Breadboard                                          |
-|                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  | ![](./media/image19.jpeg)                   | ![](./media/image20.jpeg)                           |
-| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                |                                             | Pushbutton switch (2)                               |
-|                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image21.jpeg)                                | ![](./media/image22.jpeg)                                                  |                                             |                                                     |
-| Right-angle brackets                                     | Square plates                                                              |                                             |                                                     |
+| ![](./media/image1.jpeg)                                 | ![](./media/image2.jpeg)                                                         | ![](./media/image2.jpeg)                    | ![](./media/image3.jpeg)                            |
+|----------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
+| Arduino microcontroller board (our miniature computer)   | EMG muscle sensor board (measures the tiny electrical signals from your muscles) | EMG muscle sensor button wires w/ mini-plug | Motor driver board (electronics to drive the motor) |
+|                                                          |                                                                                  |                                             |                                                     |
+| ![](./media/image4.jpeg)                                 | ![](./media/image5.jpeg)                                                         | ![](./media/image6.jpeg)                    | ![](./media/image7.jpeg)                            |
+| 9V batteries                                             | 9V battery + plug                                                                | Motor                                       | 12V battery for motor                               |
+|                                                          |                                                                                  |                                             |                                                     |
+| ![](./media/image8.jpeg)                                 |                                                                                  | ![](./media/image9.jpeg)                    | ![](./media/image10.jpeg)                           |
+| LED                                                      | Potentiometer                                                                    | LCD display                                 | USB cable                                           |
+| ![](./media/image11.jpeg)                                | ![](./media/image12.jpeg)                                                        | ![](./media/image13.jpeg)                   | ![](./media/image14.jpeg)                           |
+| Aluminum beams                                           | Screws and nuts                                                                  | Motor hub                                   | Breadboard                                          |
+|                                                          |                                                                                  |                                             |                                                     |
+| ![](./media/image15.jpeg)                                | ![](./media/image16.jpeg)                                                        | ![](./media/image17.jpeg)                   | ![](./media/image18.jpeg)                           |
+| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                      | Timer                                       | Pushbutton switch (2)                               |
+|                                                          |                                                                                  |                                             |                                                     |
+| ![](./media/image19.jpeg)                                | ![](./media/image20.jpeg)                                                        | ![](./media/image21.jpeg)                   | ![](./media/image22.jpeg)                           |
+| Sensor pads (connect the EMG muscle sensor to your skin) | Square plates                                                                    | Right-angle brackets                        | Motor mount                                         |
 
 Build the arm setup
 ===================
