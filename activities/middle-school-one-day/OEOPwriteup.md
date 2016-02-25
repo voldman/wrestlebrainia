@@ -6,7 +6,7 @@ You will need the following parts, which should be located in your bin.
 
 | ![](./media/image1.jpeg)                                 | ![](./media/image2.jpeg)                                                   | ![](./media/image3.jpeg)                    | ![](./media/image4.jpeg)                            |
 |----------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
-| Arduino microcontroller board (our miniature computer)   | EMG muscle sensor (measures the tiny electrical signals from your muscles) | EMG muscle sensor button wires w/ mini-plug | Motor driver board (electronics to drive the motor) |
+| Arduino microcontroller board (our miniature computer)   | EMG muscle sensor (measures the tiny electrical signals from your muscles) (x2) | EMG muscle sensor button cable w/ mini-plug (x2) | Motor driver board (electronics to drive the motor) |
 |                                                          |                                                                            |                                             |                                                     |
 | ![](./media/image5.jpeg)                                 | ![](./media/image6.jpeg)                                                   | ![](./media/image7.jpeg)                    | ![](./media/image8.jpeg)                            |
 | Sensor pads (connect the EMG muscle sensor to your skin) | Timer                                                                      | Motor                                       | 12V battery for motor                               |
