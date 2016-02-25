@@ -16,8 +16,8 @@ You will need the following parts, which should be located in your bin.
 | ![](./media/image13.jpeg)                                | ![](./media/image14.jpeg)                                                  | ![](./media/image15.jpeg)                   | ![](./media/image16.jpeg)                           |
 | Aluminum beams (x2)                                      | Screws                                                                     | Motor hub                                   | Breadboard                                          |
 |                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  |                                             |                                                     |
-| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                |                                             |                                                     |
+| ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  | ![](./media/resistors.jpeg)                 |                                                     |
+| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                | 1 kOhm resistors (x2)                              |                                                     |
 
 Build the arm setup
 ===================
@@ -52,7 +52,7 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
 > ![](./media/image29.jpeg)
 
-\[update this picture\]
+**Need to update this picture**
 
 1.  Attach three sensor pads to one of your teammates’ forearm or bicep muscles as shown below. One of the pads should go on the center of the muscle, one near the end of the muscle, and the third on the bony part of your elbow.
 
@@ -75,7 +75,7 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
     2.  If you are interested in how the code works, it reads the two EMG signals, then maps them to a scale defined by the noise and max calibration values as shown below.
 
-> a![](./media/image33.emf)
+> a![](./media/image33.png)
 >
 > Then the code compares the two EMG signals and the bigger one determines the motor direction and velocity. Every few milliseconds, the code checks to see if one of the pushbuttons has been pushed. If so, the motor arm back and forth indicating the end of the round. If there is no winner, we loop through again.
 
