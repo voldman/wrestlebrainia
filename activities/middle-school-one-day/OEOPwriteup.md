@@ -16,7 +16,7 @@ You will need the following parts, which should be located in your bin.
 | ![](./media/image13.jpeg)                                | ![](./media/image14.jpeg)                                                  | ![](./media/image15.jpeg)                   | ![](./media/image16.jpeg)                           |
 | Aluminum beams (x2)                                      | Screws                                                                     | Motor hub                                   | Breadboard                                          |
 |                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  | ![](./media/resistors.jpeg)                 |                                                     |
+| ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  | ![](./media/resistors.png)                 |                                                     |
 | 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                | 1 kOhm resistors (x2)                              |                                                     |
 
 Build the arm setup
