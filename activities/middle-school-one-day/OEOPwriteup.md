@@ -35,7 +35,7 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
     1.  We are using four circuit boards for this lab, and they should already be assembled together.  
 
-	 ![](./media/fourboards.jpeg) 
+	 ![](./media/fourboards.jpg) 
 
 	1.  Connect the four wires from the motor to the motor shield as shown in the diagram below.
 
@@ -45,11 +45,11 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
 	1. Connect the three wires of the LCD display to the protoboard and to the top EMG board as shown in the schematic below.  The white wire from the LCD display should go to digital pin 8.
 
-	 ![](./media/schematic.jpeg)
+	 ![](./media/schematic.jpg)
 
 	1.  Connect the two mini-plugs from the EMG muscle sensor button wires to the EMG muscle sensor board. The final setup should look like this image below:
 
-	 ![](./media/finalsetup.jpeg)
+	 ![](./media/finalsetup.JPG)
 
 	1.  Attach three sensor pads to one of your teammates’ forearm or bicep muscles as shown below. One of the pads should go on the center of the muscle, one near the end of the muscle, and the third on the bony part of your elbow.
 
@@ -70,7 +70,7 @@ Wrestle!
 
 2.  If you are interested in how the code works, it reads the two EMG signals, then maps them to a scale defined by the noise and max calibration values as shown below.
 
-	![](./media/image33.emf)
+	![](./media/image33.png)
 
 Then the code compares the two EMG signals and the bigger one determines the motor direction and velocity. Every few milliseconds, the code checks to see if one of the pushbuttons has been pushed. If so, the motor arm back and forth indicating the end of the round. If there is no winner, we loop through again.
 
