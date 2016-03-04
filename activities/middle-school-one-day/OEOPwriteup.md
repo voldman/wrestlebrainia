@@ -35,23 +35,21 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
     1.  We are using four circuit boards for this lab, and they should already be assembled together.  
 
-	 ![](./media/image30.jpeg) 
+	 ![](./media/fourboards.jpeg) 
 
-	1.  The four wires from the motor should be connected to the motor shield as shown in the diagram below.
+	1.  Connect the four wires from the motor to the motor shield as shown in the diagram below.
 
-	 ![](./media/image31.jpeg) 
+	 ![](./media/motorwiring.png) 
 
-	1.  Connect the two pushbutton switches and resistors as shown in the figure below. Looking at Wrestlebrainia mini head-on, the circuit for the pushbutton on the left should go to digital pin 2, and the one on the right to digital pin 1.
+	1.  Connect the two pushbutton switches and resistors as shown in the schematic below. Looking at Wrestlebrainia mini head-on, the circuit for the pushbutton on the left should go to digital pin 2, and the one on the right to digital pin 1.
 
-	 ![](./media/image32.jpeg)
+	1. Connect the three wires of the LCD display to the protoboard and to the top EMG board as shown in the schematic below.  The white wire from the LCD display should go to digital pin 8.
 
-	1. Connect the three wires of the LCD display to the protoboard and to the top EMG board as show below:
+	 ![](./media/schematic.jpeg)
 
-	 ![](./media/image32.jpeg)	
+	1.  Connect the two mini-plugs from the EMG muscle sensor button wires to the EMG muscle sensor board. The final setup should look like this image below:
 
-    1.  Connect the two mini-plugs from the EMG muscle sensor button wires to the EMG muscle sensor board.
-
-	 ![](./media/image29.jpeg)
+	 ![](./media/finalsetup.jpeg)
 
 	1.  Attach three sensor pads to one of your teammates’ forearm or bicep muscles as shown below. One of the pads should go on the center of the muscle, one near the end of the muscle, and the third on the bony part of your elbow.
 
