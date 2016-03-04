@@ -35,7 +35,7 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
     1.  We are using four circuit boards for this lab, and they should already be assembled together.  
 
-	 ![](./media/fourboards.jpg) 
+	 ![](./media/fourboards.png) 
 
 	1.  Connect the four wires from the motor to the motor shield as shown in the diagram below.
 
@@ -45,7 +45,7 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
 	1. Connect the three wires of the LCD display to the protoboard and to the top EMG board as shown in the schematic below.  The white wire from the LCD display should go to digital pin 8.
 
-	 ![](./media/schematic.jpg)
+	 ![](./media/schematic.png)
 
 	1.  Connect the two mini-plugs from the EMG muscle sensor button wires to the EMG muscle sensor board. The final setup should look like this image below:
 
