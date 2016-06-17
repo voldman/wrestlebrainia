@@ -88,10 +88,10 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
 
 
-1.  Wrestle!
-    ========
+Wrestle!
+========
 
-    1.  Open up the wrestlebrainiaMini sketch. Look at it side-by-side with EMGToMotorWithSwitch. In the first block of code, there are now two sets of variables and constants, one for Arm1 and one for Arm2. The button on the right is known as Player 2’s win button: it is the button that is pushed when Player 2 (the player on the right) rotates the motor arm all the way to Player 1’s side.
+1.  Open up the wrestlebrainiaMini sketch. Look at it side-by-side with EMGToMotorWithSwitch. In the first block of code, there are now two sets of variables and constants, one for Arm1 and one for Arm2. The button on the right is known as Player 2’s win button: it is the button that is pushed when Player 2 (the player on the right) rotates the motor arm all the way to Player 1’s side.
 
 In the setup() block, we first find the two pushbuttons with the goToMiddle() procedure and then run a calibrate() procedure. In this sketch, we have many subfunctions (or subprocedures or subroutines) defined at the bottom of the sketch. If you scroll down, you can see what calibrate() does. It is essentially a fancier version of the calibration from EMGToMotorWithSwitch.
 
@@ -105,7 +105,7 @@ Then we compare the two EMG signals and the difference determines the motor dire
 
 2.  Have fun!
 
-3.  Things to do
+3.  Things to do:
 
 -   Wrestle, wrestle, wrestle. Try different muscles.
 
