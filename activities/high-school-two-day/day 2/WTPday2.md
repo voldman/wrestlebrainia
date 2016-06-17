@@ -7,19 +7,19 @@ You will need the following parts, which should be located in your bin.
 |----------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
 | Arduino microcontroller board (our miniature computer)   | EMG muscle sensor (measures the tiny electrical signals from your muscles) | EMG muscle sensor button wires w/ mini-plug | Motor driver board (electronics to drive the motor) |
 |                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image5.jpeg)                                 | ![](./media/image6.jpeg)                                                   | ![](./media/image7.jpeg)                    | ![](./media/image8.jpeg)                            |
-| Sensor pads (connect the EMG muscle sensor to your skin) | Timer                                                                      | Motor                                       | 12V battery for motor                               |
+| ![](./media/image5.jpeg)                                 | ![](./media/image7.jpeg)                    | ![](./media/image8.jpeg)                            |
+| Sensor pads (connect the EMG muscle sensor to your skin) | Motor                                       | 12V battery for motor                               |
 |                                                          |                                                                            |                                             |                                                     |
 | ![](./media/image9.jpeg)                                 | ![](./media/image10.jpeg)                                                  | ![](./media/image11.jpeg)                   | ![](./media/image12.jpeg)                           |
-| LED                                                      | Potentiometer                                                              | LCD display                                 | USB cable                                           |
+| LED                                                      | Potentiometer                                                              | LCD display + JST cable                                 | USB cable                                           |
 | ![](./media/image13.jpeg)                                | ![](./media/image14.jpeg)                                                  | ![](./media/image15.jpeg)                   | ![](./media/image16.jpeg)                           |
 | Aluminum beams                                           | Screws and nuts                                                            | Motor hub                                   | Breadboard                                          |
 |                                                          |                                                                            |                                             |                                                     |
 | ![](./media/image17.jpeg)                                | ![](./media/image18.jpeg)                                                  | ![](./media/image19.jpeg)                   | ![](./media/image20.jpeg)                           |
-| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                |                                             | Pushbutton switch (2)                               |
+| 3/32” and 7/64” Hex wrenches                             | Screwdriver                                                                | Motor mount                                 | Pushbutton switches on square plates (2)                               |
 |                                                          |                                                                            |                                             |                                                     |
-| ![](./media/image21.jpeg)                                | ![](./media/image22.jpeg)                                                  |                                             |                                                     |
-| Right-angle brackets                                     | Square plates                                                              |                                             |                                                     |
+| ![](./media/image21.jpeg)                                |                                             |                                                     |
+| Right-angle brackets                                     |                                             |                                                     |
 
 1.  Start up and test the system from Wednesday
     ===========================================
