@@ -48,7 +48,7 @@ Instead of setting the brightness in the software, let’s instead use a potenti
 
 1.  Disconnect the USB cable from the Arduino. Add in a potentiometer, with one outer leg connected to +5V and the other outer leg connected to gnd, and the middle leg connected to analog input pin 0 (A0). Reconnect the USB cable.
 
-![](./media/image25.png)
+	![](./media/image25.png)
 
 1.  Open the LEDControlWithPot sketch and look at it alongside the LEDControl sketch. **DO NOT UPLOAD YET!** You’ll notice a few new lines. We now define the pin to which the potentiometer is connected (potPin) and define a variable to hold the voltage that we’ll measure (potValue). In the loop(), we first read that voltage on that pin with analogRead. When we read the analog voltage, it is converted into a digital value that ranges between 0..1023 (0 0 V, 1023 5 V). We then use that value to set the voltage on the ledPin. However, we can only set outputs between 0..255.
 
@@ -63,7 +63,7 @@ It’s nice to have the Arduino communicate with us via text. A good way to do t
 
 1.  Disconnect the USB cable from the Arduino. Attach the LCD screen to the breadboard and wire it up as shown in the schematic below (**note that the backside of the LCD is shown. The text will be on the front!)**. Reconnect the USB cable.
 
-![](./media/image26.png)
+	![](./media/image26.png)
 
 1.  Open the LCDAndLED sketch alongside the LEDControlWithPot sketch. Now there are new commands to control the LCD screen. The key commands are lcd.clear(), lcd.print(), and lcd.setCursor()in the loop. The code displays the value written with analogWrite. Upload the sketch. Vary the potentiometer to make sure everything works.
 
@@ -78,15 +78,15 @@ Using a potentiometer to vary the LED is neat, but we’re here to do some neura
 
 3.  Plug the LCD screen and LED into the EMG shield.
 
-![](./media/image27.jpeg)
+	![](./media/image27.jpeg)
 
 1.  Attach three sensor pads to each partner’s forearm or bicep muscles as shown below. One of the pads should go on the center of the muscle, one near the end of the muscle, and the third on the bony part of your elbow.
 
-![](./media/image28.jpeg)![](./media/image29.jpeg)
+	![](./media/image28.jpeg)![](./media/image29.jpeg)
 
 1.  Clip the three sensor buttons from the EMG muscle sensor wires to the pads on your bicep, with the black sensor button (reference button) attached to the pad near your elbow.
 
-![](./media/image30.jpeg)
+	![](./media/image30.jpeg)
 
 1.  Now we need to tell the code to rectify and smooth the signal from the EMG muscle sensors. In the LCDAndLED code, uncomment lines 43 and comment line 39 (by adding // to the beginning of the line). Connect the Arduino in and upload the new code.
 
@@ -99,15 +99,15 @@ OK, let’s put it all together. Instead of just controlling the LED brightness,
 
 1.  Slide the motor hub onto the motor shaft with the flat side of the hub facing up. The top of the hub should be flush with the top of the motor shaft. Use a 3/32” hex wrench to tighten the set screw so that it is tight.
 
-![](./media/image31.jpeg)
+	![](./media/image31.jpeg)
 
 1.  Attach the short aluminum beam to the clamping hub using two screws. You can attach the beam anywhere (end, middle, whatever). Tighten the screws using a 7/64” hex wrench. Attach motor to a flat surface using the double-stick tape on the motor’s bottom.
 
-![](./media/image32.jpeg)
+	![](./media/image32.jpeg)
 
 Here is the picture of the complete setup. Note that we also brought out the 12V battery for the motor.
 
-![](./media/image33.jpeg)
+	![](./media/image33.jpeg)
 
 1.  Open up the EMGToMotor sketch and look at it alongside LCDAndLED. When compared to the LCDAndLED sketch, there are extra lines to control the motor, and we have added in a calibration step. We have also renamed the variable potPin to EMGPin.
 
@@ -117,7 +117,7 @@ Each EMG sensor gives different readings depending on, for example, where the el
 
 In the loop() block, we use the map command to map the measured signal as shown below. In this fashion, EMG signals below threshold will result in negative values of scaledEMG. This is just a fancier mapping akin to what we did before with the LED, when we divided potValue by 4.
 
-![](./media/image34.png)
+	![](./media/image34.png)
 
 1.  Power up the motor shield using the 12V battery. **CAUTION! The Motor can get quite hot!**
 
