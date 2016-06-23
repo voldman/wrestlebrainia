@@ -111,7 +111,7 @@ OK, let’s put it all together. Instead of just controlling the LED brightness,
 
 Here is the picture of the complete setup. Note that we also brought out the 12V battery for the motor.
 
-![](./media/image33.jpeg)
+	![](./media/image33.jpeg)
 
 1.  Open up the EMGToMotor sketch and look at it alongside LCDAndLED. When compared to the LCDAndLED sketch, there are extra lines to control the motor, and we have added in a calibration step. We have also renamed the variable potPin to EMGPin.
 
@@ -121,7 +121,7 @@ Each EMG sensor gives different readings depending on, for example, where the el
 
 In the loop() block, we use the map command to map the measured signal as shown below. In this fashion, EMG signals below threshold will result in negative values of scaledEMG. This is just a fancier mapping akin to what we did before with the LED, when we divided potValue by 4.
 
-![](./media/image34.png)
+	![](./media/image34.png)
 
 1.  Power up the motor shield using the 12V battery. **CAUTION! The Motor can get quite hot!**
 
