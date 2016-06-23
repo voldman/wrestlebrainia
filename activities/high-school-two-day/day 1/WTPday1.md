@@ -25,11 +25,11 @@ For our first system, we’ll use Arduino to control something, in this case the
 
 1.  Attach the motor driver board to the Arduino microcontroller board by aligning the pins from the motor driver board with the black headers on the Arduino board and pushing the two boards together. The motor driver board is called a *shield*, in that it fits on top of the Arduino, kind of like a shield.
 
-![](./media/image19.jpeg) ![](./media/image20.jpeg)
+	![](./media/image19.jpeg) ![](./media/image20.jpeg)
 
 1.  Connect the Arduino, LED, and a 220 Ω resistor (from the cabinet in the back of the lab) in series, as shown in the image and schematic below. (Our schematics show the Ardinuo board rather than the motor shield attached on top, but we are in fact connecting the wires to the motor shield). Remember that the LED is polarized; connect the short lead to the resistor and the long lead to the wire going to the Arduino digital pin 6. Note in the schematic and image that we used two wires to bring +5V and gnd from the Arduino to the breadboard.
 
-![](./media/image21.jpeg) ![](./media/image22.png)
+	![](./media/image21.jpeg) ![](./media/image22.png)
 
 1.  If not already logged in, log in to the computer. Double-click on the Arduino icon ![](./media/image23.jpeg) on the desktop to open up the Arduino programming environment. Within the Arduino world, programs are known as *sketches*. Open up the LEDControl sketch (File&gt;Open, navigate to Desktop, LEDControl folder, LEDControl.ino).
 
