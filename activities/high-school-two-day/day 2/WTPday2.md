@@ -30,7 +30,7 @@ Start up and test the system from Day 1
 
 3.  Connect the Arduino to the computer using the USB cable. In the Arduino environment, go to Tools&gt;Port and select the serial port to which the Arduino is connected, e.g., display something like (Arduino Uno) COM4.
 
-4.  Upload the sketch to the Arduino. After a few seconds, the LCD display should start displaying text as it did on Wednesday (“Calibration”,…).
+4.  Upload the sketch to the Arduino. After a few seconds, the LCD display should start displaying text as it did on Day 1 (“Calibration”,…).
 
 5.  Connect the 12V battery to the Motor Shield. The green light on the motor shield should light up.
 
@@ -49,7 +49,7 @@ Let’s add in a pushbutton switch to get some additional functionality. We’ll
 
 2.  Add a pushbutton switch to the circuit as shown in the schematic below. Use a 10K resistor between digital input 1 and ground.
 
-![](./media/image24.png)
+	![](./media/image24.png)
 
 1.  Open the EMGToMotorWithSwitch sketch. We define button as a constant 1 (because the switch is connected to digital pin 1). Then, in the loop(), we use check the state of the switch with digitalRead(button) and assign that value to the variable buttonState. We then use an if statement with buttonState to control the direction of the motor in the step command.
 
@@ -64,23 +64,23 @@ Let’s assemble Wrestlebrainia mini. There are a number of ways to put it toget
 
 1.  Attach the motor mount to the motor with the 4 included Philips-head screws.
 
-![](./media/image25.jpeg)
+	![](./media/image25.jpeg)
 
 1.  Attach the two right-angle brackets to the motor using two hex-head screws.
 
-![](./media/image26.jpeg) ![](./media/image27.jpeg) ![](./media/image28.jpeg)
+	![](./media/image26.jpeg) ![](./media/image27.jpeg) ![](./media/image28.jpeg)
 
 1.  Attach the short aluminum beam and motor hub to the shaft, similar to what you did on Wednesday.
 
-![](./media/image29.jpeg)
+	![](./media/image29.jpeg)
 
 1.  Attach the long aluminum beam and the two switches to the right-angle bracket using hex-head screws and nuts. Before tightening the nuts holding the switches to the long aluminum beam, rotate the square plate holding the switch so that the short beam attached to the motor lands squarely on the switch.
 
-![](./media/image30.jpeg)
+	![](./media/image30.jpeg)
 
-![](./media/image31.jpeg)
+	![](./media/image31.jpeg)
 
-![](./media/image32.jpeg)
+	![](./media/image32.jpeg)
 
 1.  Wire up the two pushbutton switches as you did in the previous section (thru 10K resistors to ground). Looking at Wrestlebrainia mini head-on, the circuit for the pushbutton on the left should go to digital pin 2, and the one on the right to digital pin 1.
 
@@ -97,7 +97,7 @@ In the setup() block, we first find the two pushbuttons with the goToMiddle() pr
 
 In the loop() block, we read the two EMG signals and store them in a type of array called a queue, which keeps the 50 most recent data points. This code uses a more sophisticated calibration that what we have used before. It is an *adaptive* calibration, where the minimum and maximum values vary over time. Most of the code in the loop() block deals with figuring out what is a good max and min value for each Arm. Once those are determined, we scale our current measurement to between 0..99 using a mapping similar to below:
 
-![](./media/image33.png)
+	![](./media/image33.png)
 
 Then we compare the two EMG signals and the difference determines the motor direction and velocity. We move a step in that direction at that velocity, then run the subfunction checkForWinner(), which checks to see if one of the buttons has been pushed. If so, we run a celebrate() subroutine, which moves the motor arm back and forth and blinks the LED, and then goToMiddle() again. If there is no winner, we loop through again.
 

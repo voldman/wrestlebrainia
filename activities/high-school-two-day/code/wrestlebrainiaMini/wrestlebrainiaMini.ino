@@ -16,7 +16,7 @@
 // include libraries for Adafruit motor shield
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
-#include "utility/Adafruit_PWMServoDriver.h"
+#include "utility/Adafruit_MS_PWMServoDriver.h"
 // include the library code to run the LCD display:
 #include <serLCD.h>
 #include <SoftwareSerial.h>

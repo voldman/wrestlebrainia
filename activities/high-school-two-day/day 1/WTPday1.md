@@ -31,13 +31,13 @@ For our first system, we’ll use Arduino to control something, in this case the
 
 	![](./media/image21.jpeg) ![](./media/image22.png)
 
-1.  If not already logged in, log in to the computer. Double-click on the Arduino icon ![](./media/image23.jpeg) on the desktop to open up the Arduino programming environment. Within the Arduino world, programs are known as *sketches*. Open up the LEDControl sketch (File&gt;Open, navigate to Desktop, LEDControl folder, LEDControl.ino).
+1.  If not already logged in, log in to the computer. Double-click on the Arduino icon ![](./media/image23.jpeg) on the desktop to open up the Arduino programming environment. Open up the LEDControl sketch (File&gt;Open, navigate to Desktop, LEDControl folder, LEDControl.ino).
 
 2.  Every Arduino program (sketch) has three basic parts. The first part defines constants, variables, and other miscellanea. In our case, we assign the value 6 to ledPin. The second part is a block of statements enclosed within curly brackets starting with void setup(). This block runs once when the Arduino powers up. In our case, we have the pinMode command to tell the Arduino which pin is connected to the LED and to set that pin to be an OUTPUT (rather than an INPUT).
 
 The third part is the void loop() block. This block loops over and over forever. Here we have two commands, analogWrite to set the output voltage at the output pin to a particular value, then delay to wait before looping again. analogWrite sets the pin voltage to between 0 and 5 V, depending on the value given between 0..255 (0 0 V, 255 5 V).
 
-1.  Connect the Arduino to the computer using the USB cable. In the Arduino environment, go to Tools&gt;Port and select the serial port to which the Arduino is connected, e.g., display something like (Arduino Uno) COM4.
+1.  Connect the Arduino to the computer using the USB cable.
 
 2.  Click the Upload button in the Arduino environment (![](./media/image24.png)). The sketch will compile and then be transferred to the Arduino. In a few seconds, you should see your LED light up.
 
@@ -61,7 +61,7 @@ Add in an LCD screen
 
 It’s nice to have the Arduino communicate with us via text. A good way to do that is to attach an LCD display. Here we’ll attach a display and then have it display the LED brightness.
 
-1.  Disconnect the USB cable from the Arduino. Attach the LCD screen to the breadboard and wire it up as shown in the schematic below (**note that the backside of the LCD is shown. The text will be on the front!)**. Reconnect the USB cable.
+1.  Disconnect the USB cable from the Arduino to power off the Arduino. Attach the LCD screen to the breadboard and wire it up as shown in the schematic below (**note that the backside of the LCD is shown. The text will be on the front!)**. Reconnect the USB cable.
 
 	![](./media/image26.png)
 
@@ -76,7 +76,7 @@ Using a potentiometer to vary the LED is neat, but we’re here to do some neura
 
 2.  Attach an EMG shield on top of the motor shield. Use the EMG shield labeled **EMG1**. Plug a sensor cable into the EMG shield.
 
-3.  Plug the LCD screen and LED into the EMG shield.
+3.  Reconnect the LCD screen and LED into the EMG shield. You can look back to earlier in the lab handout to remind yourself of how everything is connected.
 
 	![](./media/image27.jpeg)
 
@@ -104,6 +104,10 @@ OK, let’s put it all together. Instead of just controlling the LED brightness,
 1.  Attach the short aluminum beam to the clamping hub using two screws. You can attach the beam anywhere (end, middle, whatever). Tighten the screws using a 7/64” hex wrench. Attach motor to a flat surface using the double-stick tape on the motor’s bottom.
 
 	![](./media/image32.jpeg)
+
+1.  Connect the four wires from the motor to the motor shield as shown in the diagram below.
+
+	![](./media/motorwiring.png) 
 
 Here is the picture of the complete setup. Note that we also brought out the 12V battery for the motor.
 
