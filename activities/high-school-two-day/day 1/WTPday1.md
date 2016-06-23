@@ -109,7 +109,7 @@ OK, let’s put it all together. Instead of just controlling the LED brightness,
 
 	![](./media/motorwiring.png) 
 
-Here is the picture of the complete setup. Note that we also brought out the 12V battery for the motor.
+1. Here is the picture of the complete setup. Note that we also brought out the 12V battery for the motor.
 
 	![](./media/image33.jpeg)
 
