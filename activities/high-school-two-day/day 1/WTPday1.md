@@ -115,11 +115,11 @@ OK, let’s put it all together. Instead of just controlling the LED brightness,
 
 1.  Open up the EMGToMotor sketch and look at it alongside LCDAndLED. When compared to the LCDAndLED sketch, there are extra lines to control the motor, and we have added in a calibration step. We have also renamed the variable potPin to EMGPin.
 
-There are some initial commands to create a motor shield object. The key motor control commands are setSpeed, which sets the rotation rate, and step, which dictates how many steps the stepper motor should take. We’ll learn more about stepper motors next time, but for now the key is that they take discrete steps as they rotate around (our motor has 200 steps for each complete revolution). In the step command, one can set the direction (FORWARD, BACKWARD), and the type of rotation (options are INTERLEAVE, SINGLE, DOUBLE, and MICROSTEP).
+	There are some initial commands to create a motor shield object. The key motor control commands are setSpeed, which sets the rotation rate, and step, which dictates how many steps the stepper motor should take. We’ll learn more about stepper motors next time, but for now the key is that they take discrete steps as they rotate around (our motor has 200 steps for each complete revolution). In the step command, one can set the direction (FORWARD, BACKWARD), and the type of rotation (options are INTERLEAVE, SINGLE, DOUBLE, and MICROSTEP).
 
-Each EMG sensor gives different readings depending on, for example, where the electrodes are placed. To account for this, the code now has a for loop that iterates 10×. During each iteration, it rotates the motor a bit, reads the EMG signal, and displays the value on the LCD. We then average those 10 values to get a sense of the noise in the sensor (noiseThreshold).
+	Each EMG sensor gives different readings depending on, for example, where the electrodes are placed. To account for this, the code now has a for loop that iterates 10×. During each iteration, it rotates the motor a bit, reads the EMG signal, and displays the value on the LCD. We then average those 10 values to get a sense of the noise in the sensor (noiseThreshold).
 
-In the loop() block, we use the map command to map the measured signal as shown below. In this fashion, EMG signals below threshold will result in negative values of scaledEMG. This is just a fancier mapping akin to what we did before with the LED, when we divided potValue by 4.
+	In the loop() block, we use the map command to map the measured signal as shown below. In this fashion, EMG signals below threshold will result in negative values of scaledEMG. This is just a fancier mapping akin to what we did before with the LED, when we divided potValue by 4.
 
 	![](./media/image34.png)
 
