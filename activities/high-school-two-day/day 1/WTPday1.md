@@ -50,7 +50,7 @@ Instead of setting the brightness in the software, let’s instead use a potenti
 
 	![](./media/image25.png)
 
-1.  Open the LEDControlWithPot sketch and look at it alongside the LEDControl sketch. **DO NOT UPLOAD YET!** You’ll notice a few new lines. We now define the pin to which the potentiometer is connected (potPin) and define a variable to hold the voltage that we’ll measure (potValue). In the loop(), we first read that voltage on that pin with analogRead. When we read the analog voltage, it is converted into a digital value that ranges between 0..1023 (0 0 V, 1023 5 V). We then use that value to set the voltage on the ledPin. However, we can only set outputs between 0..255.
+1.  Open the LEDControlWithPot sketch and look at it alongside the LEDControl sketch. **DO NOT UPLOAD YET!** You’ll notice a few new lines. We now define the pin to which the potentiometer is connected (potPin) and define a variable to hold the voltage that we’ll measure (potValue). In the loop(), we first read that voltage on that pin with analogRead. When we read the analog voltage, it is converted into a digital value that ranges between 0 to 1023 (0 0 V, 1023 5 V). We then use that value to set the voltage on the ledPin. However, we can only set outputs between 0..255.
 
 2.  Edit the divisor value near the top of the sketch based on your result. That value is used in the analogWrite command near the end of the sketch.
 
@@ -76,7 +76,7 @@ Using a potentiometer to vary the LED is neat, but we’re here to do some neura
 
 2.  Attach an EMG shield on top of the motor shield. Use the EMG shield labeled **EMG1**. Plug a sensor cable into the EMG shield.
 
-3.  Reconnect the LCD screen and LED into the EMG shield. You can look back to earlier in the lab handout to remind yourself of how everything is connected.
+3.  Reconnect the LCD screen and LED into the EMG shield. You can look back to earlier in the lab handout to remind yourself of how everything is connected. **Do not reconnect the potentiometer!**
 
 	![](./media/image27.jpeg)
 
